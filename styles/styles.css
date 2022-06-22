@@ -1,0 +1,178 @@
+@font-face {
+  font-family: IranSans;
+  src: url("./../fonts/iransans/IRANSans.eot");
+  src: url("./../fonts/iransans/IRANSans.eot?#iefix")
+      format("embedded-opentype"),
+    url("./../fonts/iransans/IRANSans.woff2") format("woff2"),
+    url("./../fonts/iransans/IRANSans.woff") format("woff"),
+    url("./../fonts/iransans/IRANSans.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: IranSansNumber;
+  src: url("./../fonts/iransansnumber/IRANSansFaNum.eot");
+  src: url("./../fonts/iransansnumber/IRANSansFaNum.eot?#iefix")
+      format("embedded-opentype"),
+    url("./../fonts/iransansnumber/IRANSansFaNum.woff2") format("woff2"),
+    url("./../fonts/iransansnumber/IRANSansFaNum.woff") format("woff"),
+    url("./../fonts/iransansnumber/IRANSansFaNum.ttf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  direction: rtl;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "IranSans";
+  font-size: 1.6rem;
+  direction: rtl;
+}
+
+.col-md-2 {
+  flex: 0 0 auto;
+  width: 18%;
+}
+
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 80%;
+}
+
+.navbar{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.text-navmenu-color {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.search-input {
+  font-size: 1.5rem;
+  border: none;
+  background-color: #f5f5f5;
+  height: 4rem;
+  padding-right: 2rem;
+}
+
+.search-form {
+  width: 30%;
+  flex-grow: 1;
+}
+
+.store-adv {
+  height: 3.5rem;
+  width: 10rem;
+  font-weight: 500;
+}
+
+.custome-font {
+  font-size: 1.5rem;
+}
+
+.arrow-icon-down {
+  font-size: 1rem;
+}
+
+.menu-item {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #f5f5f5;
+  /* padding: 2rem; */
+  cursor: pointer;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: red;
+  height: 100vh;
+}
+
+.mt-6 {
+  margin-top: 4rem;
+}
+
+.text-gray{
+  color: rgb(170, 170, 170);
+}
+
+.btn-agahi {
+
+  background-color: #a62626;
+}
+
+.header-font {
+  font-size: 1.2rem;
+}
+
+.card-img {
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.custome-border {
+  border: 1px solid rgb(209, 208, 208);
+}
+
+.card-text-top-title {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.card-text-bottom-title,
+.card-text-middle-title {
+  color: gray;
+  font-family: IranSansNumber;
+}
+
+.sidebar-content::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar-content {
+  overflow-y: scroll;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.pt-6 {
+  padding-top: 4rem;
+}
+
+.sidebar-header
+{
+  flex-direction: column;
+}
+
+.sidebar-nav a{
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+
+.sidebar-nav a span{
+font-size: 1.4rem;
+}
